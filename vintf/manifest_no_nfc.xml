@@ -2,7 +2,8 @@
      Copyright (C) 2024 The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
-<manifest version="1.0" type="device">
+<manifest version="6.0" type="device" target-level="6" fcm-version="6">
+    <kernel target-level="6"/>
     <!-- secure element -->
     <hal format="hidl" override="true">
        <name>android.hardware.secure_element</name>
